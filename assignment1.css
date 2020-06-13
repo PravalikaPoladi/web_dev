@@ -1,0 +1,108 @@
+* {
+      box-sizing: border-box;
+    }
+    h1 {
+      padding: 20px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .p1,.p2,.p3 {
+      background-color: rgb(155, 152, 152);
+      width: 90%;
+      height: auto;
+      margin-right: auto;
+      margin-left: auto;
+      color: black;  
+      border:1.5px solid black;
+      margin-bottom: 10px;
+      font-family: cursive;
+      
+
+    }
+    .p1>p{
+      color:black;
+      background-color: rgb(209, 155, 155);
+      position: relative;
+      border: 2px solid black;
+      margin-top: 0px;
+      padding: 5px;
+      float: right;
+      clear: left;
+    }
+    .p2>p{
+      color: white;
+      background-color: rgb(172, 88, 73);
+      position: relative;
+      border: 2px solid black;
+      margin-top: 0px;
+      padding: 5px;
+      float: right;
+      clear: left;
+    }
+    .p3>p{
+      color:  black;
+      background-color: rgb(247, 242, 175);
+      position: relative;
+      border: 2px solid black;
+      margin-top: 0px;
+      padding: 5px;
+      float: right;
+      clear: left;
+    }
+    /* Simple Responsive Framework. */
+    .row {
+      width: 100%;
+    }
+    /********** Desktop vieww**********/
+    @media (min-width: 992px) {
+
+      .col-md-1,
+      .col-md-2,
+      .col-md-3{
+        float: left;
+        padding: 1px;
+      }
+      .col-md-1{
+        width: 33.33%;
+      }
+      .col-md-2{
+        width: 33.33%;
+      }
+      .col-md-3{
+        width: 33.33%;
+      }
+    }
+    /********** Tablet view**********/
+    @media (min-width: 768px) and (max-width: 991px) {
+      .col-sm-1,
+      .col-sm-2,
+      .col-sm-3 {
+        float: left;
+      }
+      .col-sm-1{
+        width: 50%;
+      }
+      .col-sm-2{
+        width: 50%;
+      }
+      .col-sm-3{
+        width: 100%;
+      }      
+    }
+    /*************Mobile view********/
+    @media (max-width: 767px){
+      .col-xs-1,
+      .col-xs-2,
+      .col-xs-3{
+        float: left;
+      }      
+      .col-xs-1{
+        width: 100%;
+      }
+      .col-xs-2{
+        width: 100%;
+      }
+      .col-xs-3{
+        width: 100%;
+      }
+    }
