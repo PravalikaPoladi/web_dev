@@ -8,7 +8,7 @@
     }
     .p1,.p2,.p3 {
       background-color: rgb(155, 152, 152);
-      width: 90%;
+      width: 99%;
       height: auto;
       margin-right: auto;
       margin-left: auto;
@@ -16,7 +16,7 @@
       border:1.5px solid black;
       margin-bottom: 10px;
       font-family: cursive;
-      
+      padding-left: 10px;
 
     }
     .p1>p{
@@ -74,18 +74,18 @@
     }
     /********** Tablet view**********/
     @media (min-width: 768px) and (max-width: 991px) {
-      .col-sm-1,
-      .col-sm-2,
-      .col-sm-3 {
+      .col-sm-6,
+      .col-sm-6,
+      .col-sm-12 {
         float: left;
       }
-      .col-sm-1{
+      .col-sm-6{
         width: 50%;
       }
-      .col-sm-2{
+      .col-sm-6{
         width: 50%;
       }
-      .col-sm-3{
+      .col-sm-12{
         width: 100%;
       }      
     }
